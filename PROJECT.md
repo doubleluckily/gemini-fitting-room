@@ -1,30 +1,54 @@
-## AI虚拟试穿衣服应用（前端项目）
+## AI Virtual Try-On Application (Frontend Project)
 
-### 1. 项目简介
+### 1. Project Overview
 
-本项目是一个基于Web的AI虚拟试穿衣服应用，用户可以通过上传自己的照片，选择不同的衣服样式，实现虚拟试穿的效果。vue + golang + gemini实现
-### 2. 技术栈
+This project is a web-based AI virtual try-on application that allows users to upload their own photos and experiment with different clothing styles to achieve realistic virtual fitting results.
 
-- 前端：Vue.js
-- 后端：Golang 
-- 图像处理：Gemini
+The system is built using **Vue.js** for the frontend, **Golang** for the backend, and **Gemini** for AI-powered image processing and generation.
 
-### 3. 功能描述
+---
 
-- 用户选择输入参数：
-    - 文字描述
-    - 自定义人物图片
-    - 也可以选择给出的模特模版
-    - 上传待穿搭的衣服，鞋帽，包包，装饰品等
-- 实现虚拟试穿效果
-- 用户可以保存试穿结果
-- 可以选择自己的身高体重等参数，进行个性化试穿
-- 可以选择性别
-- 可以选择不同的季节
-- 可以选择不同的发型
-- 点击试穿按钮后，会创建一个任务，等待后台生成试穿结果
-- 可以从任务列表查看任务状态，包括正在处理、处理完成、处理失败等，并可以从处理完成的任务列表中查看试穿结果
-- 可以在点击试穿按钮后，一直等待，等着试穿结果生成
-- 可以选不同的背景，场景
-- 整体页面的颜色以浅色主题为主
+### 2. Tech Stack
 
+- **Frontend:** Vue.js  
+- **Backend:** Golang  
+- **AI Image Processing:** Gemini  
+
+---
+
+### 3. Features
+
+#### User Input Options
+
+- Text description (prompt-based styling)
+- Upload a custom personal photo
+- Select from provided model templates
+- Upload clothing items such as outfits, shoes, hats, bags, and accessories
+
+#### Virtual Try-On Generation
+
+- Generate realistic virtual try-on results using AI
+
+#### Personalization Options
+
+- Customize height and weight for more accurate fitting
+- Select gender
+- Choose seasonal styles
+- Select different hairstyles
+- Choose different backgrounds and scenes
+
+#### Task-Based Processing
+
+- Clicking the **"Try On"** button creates a generation task
+- Users can:
+  - Wait on the page for the result to be generated
+  - View task status in a task list (Processing, Completed, Failed)
+  - Access results from completed tasks
+
+#### Result Management
+
+- Save generated try-on results
+
+#### UI Design
+
+- Clean interface with a light-themed color scheme
