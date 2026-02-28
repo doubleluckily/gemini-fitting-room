@@ -235,12 +235,13 @@ go run main.go
 
 ---
 
+## 📬 Contact
+
+Email: doubleluckily@hotmail.com
+
+---
+
 ## 📄 License
 
 MIT License  
 
----
-
-## 📬 Contact
-
-Email: doubleluckily@hotmail.com
